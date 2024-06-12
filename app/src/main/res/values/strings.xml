@@ -51,4 +51,11 @@
     <string name="it_is_necessary_to_fill_in_the_phone">Необходимо заполнить телефон</string>
     <string name="it_is_necessary_to_fill_in_a_note">Необходимо заполнить примечание</string>
     <string name="number_of_phone">Номер телефона:</string>
+    <string name="su">Вс</string>
+    <string name="mo">Пн</string>
+    <string name="tu">Вт</string>
+    <string name="we">Ср</string>
+    <string name="th">Чт</string>
+    <string name="fr">Пт</string>
+    <string name="sa">Сб</string>
 </resources>
