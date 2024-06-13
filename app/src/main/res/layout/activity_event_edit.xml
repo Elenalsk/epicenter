@@ -10,28 +10,6 @@
     android:gravity="fill"
     tools:context=".Calendar.EventEditActivity">
 
-
-    <EditText
-        android:id="@+id/eventNameEditTxt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:backgroundTint="@color/coffeeMilkDark"
-        android:ems="10"
-        android:fontFamily="casual"
-        android:gravity="center"
-        android:inputType="textMultiLine"
-        android:lines="2"
-        android:minLines="3"
-        android:scrollbarThumbHorizontal="@color/coffeeMilkDark"
-        android:scrollbarThumbVertical="@color/coffeeMilkDark"
-        android:textColor="@color/coffeeMilkDark"
-        android:textColorHighlight="@color/coffeeMilkDark"
-        android:textColorHint="@color/coffeeMilkDark"
-        android:textColorLink="@color/coffeeMilkDark"
-        android:textCursorDrawable="@color/coffeeMilkDark"
-        android:textSize="20sp" />
-
     <TextView
         android:id="@+id/eventDatePickTV"
         android:layout_width="wrap_content"
@@ -81,6 +59,38 @@
         android:textSize="20sp"
         android:textAlignment="center"
         android:textColor="@color/coffeeMilkDark"/>
+
+    <TextView
+        android:id="@+id/commentNameTextView"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Комментарий"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@color/coffeeMilkDark"/>
+
+    <EditText
+        android:id="@+id/eventNameEditTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/coffeeMilkDark"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:scrollbarThumbHorizontal="@color/coffeeMilkDark"
+        android:scrollbarThumbVertical="@color/coffeeMilkDark"
+        android:textColor="@color/coffeeMilkDark"
+        android:textColorHighlight="@color/coffeeMilkDark"
+        android:textColorHint="@color/coffeeMilkDark"
+        android:textColorLink="@color/coffeeMilkDark"
+        android:textCursorDrawable="@color/coffeeMilkDark"
+        android:textSize="20sp" />
+
 
     <LinearLayout
         android:layout_width="match_parent"
